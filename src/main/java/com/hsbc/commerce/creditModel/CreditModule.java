@@ -5,7 +5,6 @@ import com.hsbc.commerce.creditModel.credit.CreditOption;
 import com.hsbc.commerce.creditModel.credit.CreditType;
 import com.hsbc.commerce.dao.CreditMapper;
 import com.hsbc.commerce.entity.Constant;
-import com.hsbc.commerce.entity.User;
 
 
 import java.text.ParseException;

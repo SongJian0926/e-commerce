@@ -2,6 +2,7 @@ package com.hsbc.commerce.service.impl;
 
 import com.hsbc.commerce.creditModel.CreditModel;
 import com.hsbc.commerce.creditModel.CreditModule;
+import com.hsbc.commerce.creditModel.User;
 import com.hsbc.commerce.creditModel.credit.Credit;
 import com.hsbc.commerce.creditModel.credit.CreditType;
 import com.hsbc.commerce.dao.CreditConsumeHistoryMapper;
@@ -36,7 +37,7 @@ public class ShoppingServiceImpl implements ShoppingService {
          //  orderMapper.insertOrder(order);
     }
     //增加积分记录
-    private void history(User user,double creditNum,String optionType,Order order){
+    private void history(User user, double creditNum, String optionType, Order order){
         CreditConsumeHistory creditConsumeHistory = new CreditConsumeHistory();
         creditConsumeHistory.setUser(user);
         creditConsumeHistory.setCreditNum(creditNum);

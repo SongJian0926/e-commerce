@@ -1,4 +1,4 @@
-package com.hsbc.commerce.entity;
+package com.hsbc.commerce.creditModel;
 
 public abstract class User {
     public String getUserId() {

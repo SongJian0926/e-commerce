@@ -2,6 +2,8 @@ package com.hsbc.commerce.entity;
 
 
 
+import com.hsbc.commerce.creditModel.User;
+
 import java.util.Date;
 
 public class CreditConsumeHistory {

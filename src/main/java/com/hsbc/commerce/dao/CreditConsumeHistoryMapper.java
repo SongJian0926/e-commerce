@@ -1,7 +1,7 @@
 package com.hsbc.commerce.dao;
 
 import com.hsbc.commerce.entity.CreditConsumeHistory;
-import com.hsbc.commerce.entity.User;
+import com.hsbc.commerce.creditModel.User;
 
 import java.util.List;
 

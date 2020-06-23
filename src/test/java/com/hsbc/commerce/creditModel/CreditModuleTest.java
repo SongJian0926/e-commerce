@@ -2,7 +2,6 @@ package com.hsbc.commerce.creditModel;
 
 import com.hsbc.commerce.creditModel.credit.CreditType;
 import com.hsbc.commerce.entity.CommerceUser;
-import com.hsbc.commerce.entity.User;
 import org.junit.Test;
 
 public class CreditModuleTest {

@@ -4,7 +4,7 @@ package com.hsbc.commerce.service.impl;
 import com.hsbc.commerce.creditModel.CreditModule;
 import com.hsbc.commerce.creditModel.credit.CreditType;
 import com.hsbc.commerce.entity.CommerceUser;
-import com.hsbc.commerce.entity.User;
+import com.hsbc.commerce.creditModel.User;
 import org.junit.Test;
 
 import java.text.SimpleDateFormat;
